@@ -14,6 +14,17 @@ const App = () => {
     }
   };
 
+  // // Promise Original Code
+  // const handleFillPokedex = () => {
+  //   axios.post('/api/pokemon')
+  //     .then(response => {
+  //         setPokemonList(response.data);
+  //     })
+  //     .catch(error => {
+  //         console.error('Error fetching Pokémon:', error);
+  //     });
+  // };
+
   return (
     <div className='app'>
       <header className='pokemon-images'>
@@ -24,9 +35,7 @@ const App = () => {
       </div>
       {pokemonList.length > 0 && (
         <>
-          <h2 className='strongest-heading'>
-            My Strongest Pokémon
-          </h2>
+          <h2 className='strongest-heading'>My Strongest Pokémon</h2>
           <div className='pokemon-list'>
             {pokemonList.map((pokemon) => (
               <div className='pokemon-card' key={pokemon.id}>

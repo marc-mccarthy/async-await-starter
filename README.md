@@ -79,7 +79,7 @@ Much of the code is already setup, but we will need to add our new way of handli
 - [ ] **Start the application**:
 
   - In the terminal, run the following to start the server:
-  
+
     ```shell
     npm run server
     ```
