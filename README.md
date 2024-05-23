@@ -28,7 +28,7 @@
 
 ## About This Repo
 
-📱 We will be building a Things Router application with routes that will render different components using [React](https://react.dev/) and [React Router](https://reactrouter.com/en/main)!
+📱 We will be building a basic Pokedex Strength Index application to find the strongest Pokemon in our catches using the [PokeApi](https://pokeapi.co/) and [Async-Await]()  [React](https://react.dev/) and [React Router](https://reactrouter.com/en/main)!
 
 [React Router](https://reactrouter.com/en/main) is an essential library for handling routing and navigation in React single page applications. It allows you to define routes, map components to them, and keep the UI synced to the URL throughout navigation - all without full page reloads
 

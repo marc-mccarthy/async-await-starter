@@ -8,14 +8,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 40px; */
 }
 
 .pokemon-images img {
   width: 50%;
   height: auto;
-  /* object-fit: contain; */
-  margin: 0 10px;
 }
 
 .fill-pokedex {
@@ -26,7 +23,7 @@
 
 .fill-pokedex button {
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 14px;
   background-color: #ff0000;
   color: #fff;
   border: none;
@@ -40,6 +37,7 @@
 }
 
 .pokemon-list {
+  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 20px;

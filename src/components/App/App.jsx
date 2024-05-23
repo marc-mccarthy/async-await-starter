@@ -25,7 +25,7 @@ const App = () => {
       {pokemonList.length > 0 && (
         <>
           <h2 className='strongest-heading'>
-            Strongest Pound for Pound Pokémon
+            My Strongest Pokémon
           </h2>
           <div className='pokemon-list'>
             {pokemonList.map((pokemon) => (
